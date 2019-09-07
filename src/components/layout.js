@@ -25,12 +25,14 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <body className="flex flex-wrap mb-4 container mx-auto mt-10">
-      <Header siteTitle={data.site.siteMetadata.title} />
+    <>
+      <div className="flex flex-wrap mb-4 container mx-auto mt-10">
+        <Header siteTitle={data.site.siteMetadata.title} />
         {children}
         <footer>
         </footer>
-    </body>
+      </div>
+    </>
   )
 }
 

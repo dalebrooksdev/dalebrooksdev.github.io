@@ -1,11 +1,12 @@
 import { Link } from "gatsby"
 import React from "react"
+import timelyncBanner from "../images/timelync.png"
 
 const projects = () => (
     <div className="md:flex">
         <div className="md:flex-shrink-0">
             <img className="rounded-lg md:w-56"
-                src="https://images.unsplash.com/photo-1550534791-2677533605ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                src={timelyncBanner}
                 alt="A person holding up an old school clock on a blue background!" />
         </div>
         <div className="mt-4 md:mt-0 md:ml-6">
